@@ -22,7 +22,7 @@ C:\Program Files\mosquitto>mosquitto_pub -h 192.xxx.xxx.134 -p 31883 -t house/12
 C:\Program Files\mosquitto>mosquitto_sub -h 192.xxx.xxx.134 -p 31883 -t house/#  
 ***testing ok***
 
-## Kubernetes testing  
+## Kubernetes HA (High Availability) testing  
 Started one instance of MQTT. Placed on worker2 (VM2) decided by kuberenetes
 Shut down the worker2 (VM2).   
 Kuberenetes restarted the pod on worker1 (VM1) that was available.
