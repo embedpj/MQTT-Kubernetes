@@ -22,3 +22,10 @@ C:\Program Files\mosquitto>mosquitto_pub -h 192.xxx.xxx.134 -p 31883 -t house/12
 C:\Program Files\mosquitto>mosquitto_sub -h 192.xxx.xxx.134 -p 31883 -t house/#  
 ***testing ok***
 
+## Kubernetes testing  
+Started one instance of MQTT worker2 (VM2)
+Shut down the worker2 (VM2)   
+Kuberenetes restarted the pod on worker1 (VM1) that was available.
+
+![image](https://github.com/embedpj/MQTT-Kubernetes/assets/14286200/6c9ef01a-2bd9-4366-8095-af804db59bbf)
+
