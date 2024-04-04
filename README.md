@@ -19,6 +19,6 @@ You can test on a network pc by
 
 C:\Program Files\mosquitto>mosquitto_pub -h 192.xxx.xxx.134 -p 31883 -t house/12 -m "testing ok"
 
-C:\Program Files\mosquitto>mosquitto_sub -h 192.xxx.xxx.134 -p 31883 -t house/# 
-testing ok
+C:\Program Files\mosquitto>mosquitto_sub -h 192.xxx.xxx.134 -p 31883 -t house/#  
+***testing ok***
 
