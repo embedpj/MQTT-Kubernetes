@@ -1,4 +1,4 @@
-##  Setting up one pod of MQTT in kubernetes
+##  Setting up one pod of MQTT in kubernetes cluster
 create a new folder "mosquitto" 
 add the three file
 
